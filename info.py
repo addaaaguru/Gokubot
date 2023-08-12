@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20077906'))
 API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6270831968:AAGY8PTyVTYHM0UBHlj9GnwZZu6dMYdouoc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6570838974:AAHKaE7VdeJTAiCLOvpcnEZNO_galy3u3Vg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ashupatil62611:VgARwE1anbWea4lr@cluster0.v4mthte.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gokurobotbot:gokurobotbot@cluster0.guht5nl.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Telegram_filesg")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filesg')
 
@@ -63,7 +63,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Moviesbank_Corporation/101')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001845562880'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001807053608'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/PR_allmovise_0')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
